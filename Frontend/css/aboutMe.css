@@ -1,0 +1,139 @@
+body::-webkit-scrollbar {
+  scrollbar-width:none;
+}
+.border-body{
+ width: 100%; 
+  padding: 48px 228px;
+ color: #fff;
+
+}
+.header-about-me{
+  padding: 10px;
+  font-size: 3rem;
+}
+.get-knw-me{
+text-align: center;
+font-size: 2rem;
+margin: 0;
+}
+.me-span{
+  color: #ff6666;;
+}
+.know-span{
+color: #ff6666;;
+}
+.about-details{
+  font-size: 1.1rem;
+  font-family: jeremyty;
+  ;
+  
+}
+.lets-build{
+font-size: 1.5rem;
+}
+.my-skil-sec{
+ text-align: center;
+ color: #fff;
+ margin-bottom: 80px;
+ padding: 48px 100px;
+}
+.font-end-tools{
+  font-size: 2.2rem;
+}
+.mother-skill-div-flex{
+display: flex;
+flex-direction: row;
+margin-bottom: 70px;
+}
+.div-skill-test{
+display: flex;
+}
+.div-skill-test img{
+ width: 11%; 
+}
+
+.mother-skill-div-flex{
+display: flex;
+flex-direction: row;
+align-items: center;
+flex-wrap: wrap;
+column-gap: 28px;
+row-gap: 28px;
+justify-content: center;
+
+
+}
+.div-skill-test{
+display: flex;
+justify-content: space-around;
+flex-direction: row;
+align-items: center;
+border: solid 0.4px;
+width: 200px;
+height: 57px;
+border-radius: 10px;
+;
+}
+.div-skill-test div{
+  flex: 1;
+  font-size: 1.1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.div-skill-test img{
+ width: 55%; 
+}
+
+/*Mobile View*/
+@media only screen and (min-width:320px) and (max-width:767px){
+.header-about-me{
+  padding: 10px;
+  font-size: 2.3rem;
+}  
+.border-body{
+  padding: 25px 25px;
+}
+.get-knw-me{
+font-size: 1.3rem;
+}
+.header-about-me{
+  padding: 10px;
+  font-size: 2.3rem;
+}
+.about-details{
+  font-size: 0.8rem;
+}
+.lets-build{
+font-size: 1rem;
+}
+.my-skil-sec{
+  margin-bottom: 80px;
+   padding: 25px 25px;
+}
+.mother-skill-div-flex{
+flex-direction: column;
+row-gap: 22px;
+}
+.div-skill-test img{
+ width:48%; 
+}
+}
+
+
+
+
+/* Ipad mimi */
+@media only screen and (min-width:768px) and  (max-width:775px){
+.border-body{
+  padding: 30px 30px;
+}
+
+  
+}
+/* Ipad large */
+@media only screen and (min-width:820px) and  (max-width:886px){
+.border-body{
+ padding: 48px 140px;
+}
+}
