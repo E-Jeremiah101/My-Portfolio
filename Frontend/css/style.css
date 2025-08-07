@@ -1,20 +1,34 @@
-@font-face{src:url(/fonts/Urbanist/Urbanist-Italic-VariableFont_wght.ttf);
-    font-family: jeremypop;
-    }
-@font-face{src:url(/fonts/Poppins/Poppins-Bold.ttf);
-    font-family: jeremypop;
-    }
-@font-face{src:url(/fonts/Dosis/static/Dosis-SemiBold.ttf);
-    font-family: jeremyt;
-    } 
-@font-face{src:url(/fonts/Poppins/Poppins-Light.ttf);
-    font-family: jeremyty;
-    }       
+@font-face {
+  font-family: 'JeremyPopItalic';
+  src: url('/asset/fonts/Urbanist/Urbanist-Italic-VariableFont_wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'JeremyPopBold';
+  src: url('/asset/fonts/Poppins/Poppins-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'JeremyDosisSemiBold';
+  src: url('/asset/fonts/Dosis/static/Dosis-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'JeremyPoppinsLight';
+  src: url('/asset/fonts/Poppins/Poppins-Light.ttf') format('truetype');
+}
+       
 *{
   box-sizing: border-box;
 }
 body{
-font-family: jeremyty;
+font-family:JeremyPoppinsLight;
 margin: 0;
 padding: 0;
 line-height: 1.6;
