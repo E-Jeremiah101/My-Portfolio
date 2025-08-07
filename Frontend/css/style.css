@@ -30,6 +30,9 @@
 #typing-text{
   font-family:JeremyPoppinsLight;
 }
+body::-webkit-scrollbar {
+  scrollbar-width:none;
+}
 body{
 font-family:JeremyPoppinsLight;
 margin: 0;
@@ -37,6 +40,8 @@ padding: 0;
 line-height: 1.6;
 background-color: #040404;
 width: 100%;
+
+
 }
 
 header{
@@ -93,13 +98,17 @@ font-size: 26px;
   background-color: #040404;
   color: #F4F4F4;
   margin-top: 30px;
+  
+}
+.img-div{
+  width: 100%;
 }
 .sec-dtls img{
   width: 450px;
-  
+  max-width: 100%;
 }
 .div-intro{
-  font-size: 32px;
+  font-size: 27px;
   text-align: left;
   display: flex;
   align-items: center;
@@ -128,8 +137,8 @@ font-size: 26px;
   justify-content: space-around;
   position: fixed;
   right: 2%;
-  top: 33%;
-  bottom: 33%;
+  top: 30%;
+  bottom: 30%;
   cursor: pointer;
 }
  .icon-round{
@@ -204,7 +213,6 @@ padding:0 8px;
 .icon-round i{
 font-size: 30px;
 color: #dbe1e8;
-
 }
 .icon-div{
   position: fixed;

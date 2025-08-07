@@ -1,6 +1,8 @@
 body{
   color: #fff;
-  
+}
+body::-webkit-scrollbar {
+  scrollbar-width:none;
 }
 header h2{
 font-size: 3.3rem;
