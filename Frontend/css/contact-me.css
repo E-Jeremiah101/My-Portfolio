@@ -58,7 +58,8 @@ font-size: 1.3rem;
   background-color: #050505;
   border: none;
   font-size:18px ;
-  box-shadow: 3px 3px 9px #ff6666;;
+  box-shadow: 3px 3px 9px #ff6666;
+  color: #fff;
 } 
 .input-text-message, textarea{
   width: 84%;
