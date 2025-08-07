@@ -65,6 +65,10 @@ justify-content: center;
 align-items: center;
 text-align: center;
 }
+.resume-div a{
+  text-decoration: none;
+  color: #fff;
+}
 .resume-child-div{ 
 width: 165px; 
 height: 46px;
@@ -122,7 +126,6 @@ font-size: 26px;
 .name-style{
   font-size: 2rem;
   color: white;
-  /* text-shadow: 7px 4px 7px  #ff6666; */
   text-shadow: 4px 1px 2px #ff6666, 10px 0 25px #ff6666, 0 0 5px #ff6666;
 }
 .icon-round i{
