@@ -44,6 +44,9 @@ form div{
 text-align: center;
 margin-top: 20px;
 }
+.send-a-message-div input, textarea{
+ color: #fff;
+}
 .send-a-message-div h3{
 margin: 0;
 font-size: 1.3rem;
@@ -59,7 +62,6 @@ font-size: 1.3rem;
   border: none;
   font-size:18px ;
   box-shadow: 3px 3px 9px #ff6666;
-  color: #fff;
 } 
 .input-text-message, textarea{
   width: 84%;
